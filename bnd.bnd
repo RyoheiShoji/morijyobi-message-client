@@ -1,0 +1,19 @@
+Bundle-Name: morijobi-message-client
+Bundle-SymbolicName: jp.ac.morijyobi.shoutout.client
+Bundle-Version: 1.0.0
+Export-Package: jp.ac.morijyobi.shoutout.client.constants
+
+Bundle-ClassPath:\
+	.,\
+	lib/httpcore.jar,\
+	lib/httpclient.jar,\
+	lib/commons-io.jar,\
+	lib/json.jar
+	
+-includeresource:\
+	lib/httpcore.jar=httpcore-[0-9]*.jar,\
+	lib/httpclient.jar=httpclient-[0-9]*.jar,\
+	lib/commons-io.jar=commons-io-[0-9]*.jar,\
+	lib/json.jar=json-[0-9]*.jar
+	
+-metatype: *
